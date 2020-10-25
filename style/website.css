@@ -1,0 +1,71 @@
+/*
+Game Physics In One Weekend (based upon the Ray Tracing In One Weekend css)
+*/
+
+body {
+	margin: 3em 8%;
+	color: rgb( 200, 200, 190 );
+	font-family: Tahoma, Geneva, sans-serif;
+	//font-family: Helvetica, Arial, sans-serif;
+	//font-size: 14px;
+	//line-height: 1.5em; 
+	background-color: #1d1c1b;
+	background-image: url(images/tooplate_body.jpg);
+	background-repeat: repeat-x;
+	background-position: top
+}
+
+a {
+    text-decoration: none;
+    color: #d8852b;
+}
+
+a:visited {
+	color: #d8852b;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div.content {
+    max-width: 40em;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    font-family: Copperplate Gothic, Georgia, serif;
+}
+
+h1 {
+    font-weight: 900;
+    margin: 1.5em 0 0 0;
+    padding-left: 1ex;
+    background: #2c2c2c;
+    color: white;
+}
+
+h1.title {
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 260%;
+    margin: 2em 0 0.5em 0;
+    padding: .25em 0;
+}
+
+div.books {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 4em;
+}
+
+div.books a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 140%;
+	background: #1d1c1b;
+    color: white;
+}
